@@ -1,5 +1,6 @@
 // Base
 @import "base/variables";
+@import "base/animation";
 @import "base/mixins";
 
 // Custom
@@ -24,3 +25,5 @@
 @import "blocks/catalog";
 @import "blocks/feedbacks";
 @import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";

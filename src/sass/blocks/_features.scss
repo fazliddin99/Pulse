@@ -13,6 +13,22 @@
         flex-direction: column;
         align-items: center;
     }
+    &__img {
+        &_animated {
+            -webkit-animation-name: heartbeat;
+                    animation-name: heartbeat;
+            -webkit-animation-duration: 1.5s;
+                    animation-duration: 1.5s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease;
+            -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+            &:hover {
+                -webkit-animation-play-state: paused;
+                        animation-play-state: paused;
+            }
+        }
+    }
     &__title {
         margin: 35px 0 20px 0;
         font-weight: bold;
